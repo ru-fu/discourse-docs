@@ -1,3 +1,5 @@
+# Monitoring: Grafana
+
 If you added metrics collection support to your Anbox Cloud installation you can access the [Grafana](https://grafana.com/) service to get your first insight into the active cluster.
 
 Grafana is a tool for analytics and monitoring that allows to query, visualize or alert based on the metrics  of the cluster or individual containers.

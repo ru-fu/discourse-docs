@@ -1,3 +1,5 @@
+# Anbox Platforms
+
 Anbox can make use of different [platforms](https://oem-share.canonical.com/partners/indore/share/docs/1.7/en/sdk/anbox/) to customize its behavior. Anbox Cloud currently supports 3 platforms. Which one to use depends on your needs.
 
 ## Supported platforms

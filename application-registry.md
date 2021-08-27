@@ -1,3 +1,5 @@
+# Application Registry
+
 The AMS service can be configured to regularly look at an application registry and import any new application versions found there. When a new application version is found AMS starts to import it and once done, makes it available for use. An imported application is immutable and cannot be changed other than through the registry itself. If an application is removed from the registry it is removed from AMS on the next update as well.
 
 AMS can act in two different roles when working with the registry:

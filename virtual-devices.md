@@ -1,3 +1,5 @@
+# Virtual Devices
+
 Anbox Cloud allows you to stream the whole Android experience next to just individual applications. The following sections will show how to setup such a virtual Android device experience on top of an existing Anbox Cloud deployment.
 
 ## Create an Application for the Virtual Device

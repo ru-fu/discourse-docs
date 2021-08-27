@@ -1,3 +1,5 @@
+# Managing Stream Gateway access
+
 Similarly to [ams](https://discourse.ubuntu.com/t/managing-ams-access/17774), the Stream Gateway exposes its API over an HTTP interface. Clients can be anything from the provided Dev UI to any custom client you develop.
 
 ## Service accounts

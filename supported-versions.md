@@ -1,3 +1,5 @@
+# Supported Versions
+
 Anbox Cloud currently officially supports only the most recent release. Older releases are only supported for a short time after a new minor release was published.
 
 To ensure you receive latest security updates and bug fixes you should upgrade to a new release of Anbox Cloud shortly after it was released.

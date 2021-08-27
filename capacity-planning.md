@@ -1,3 +1,5 @@
+# Capacity Planning
+
 Anbox Cloud is optimized to provide containers at high density per host. However in order to provide enough underlying resources for a specific number of containers  we need to do some calculations to find out how many LXD machines with how many resources we need.
 
 Each container will take a specific amount of resources defined by the instance type used by the application it is launched for. If an application uses the `a2.3` instance type it requires 2 CPU cores and 3GB of memory and 3GB of disk space (see [Instance Types](https://discourse.ubuntu.com/t/instance-types/17764) for details on how much resources each instance type requires). AMS internally summarizes the amount of resources used by containers on a single machine and disallows launching additional containers when all resources are used.

@@ -1,3 +1,5 @@
+# Managing containers
+
 Containers are the center piece of the Anbox Cloud stack. A single container full Android system. Each container is hosted on a cluster of multiple nodes provided by the underlying LXD container hypervisor. The base for a container is an application which is described in [Application Management](https://discourse.ubuntu.com/t/managing-applications/17760) in more detail.
 
 ## Data stored in Containers

@@ -1,3 +1,5 @@
+# Managing logs
+
 Broadly, there are two types of logs you may be interested in. On cluster or node level; for the applications you are running inside your cluster and at an infrastructure level for the applications which are responsible for running the cluster itself.
 
 For the infrastructure, your Anbox Cloud deployment has centralised logging set up as default. Each unit in your cluster automatically sends logging information to the controller based on the current logging level. You can use the Juju command line to easily inspect these logs and to change the logging level, as explained below.

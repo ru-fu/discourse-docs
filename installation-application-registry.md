@@ -1,3 +1,5 @@
+# Setting up the Application Registry
+
 The Anbox Application Registry, or *AAR*, provides a central repository for applications created on Anbox Cloud.
 It is very useful for larger deployments involving multiple regions in order to keep applications in sync.
 

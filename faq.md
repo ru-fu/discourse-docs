@@ -1,3 +1,5 @@
+# Anbox Cloud FAQ
+
 This section covers some of the most commonly encountered problems and attempts to resolve them.
 
 ### Several Juju units of my deployment show `hook: installation failure`. Why?

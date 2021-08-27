@@ -1,3 +1,5 @@
+# GPU Support
+
 Anbox Cloud has support to manage GPUs and can provide them to individual containers for rendering and video encoding functionality.
 
 In case that no GPU is available Anbox Cloud automatically falls back to software rendering and video encoding. This makes it possible to run entirely without a GPU.

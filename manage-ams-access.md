@@ -1,3 +1,5 @@
+# Managing AMS access
+
 AMS exposes an HTTP interface. Clients can be anything, whether it's the CLI (amc), the registry (aar) or any client you developed yourself.
 However, talking with AMS **requires** a secure and trusted setup for communications with **TLS** and [certificates](https://en.wikipedia.org/wiki/X.509).
 

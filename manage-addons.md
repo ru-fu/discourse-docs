@@ -1,3 +1,5 @@
+# Managing addons
+
 The AMS services provides with addons a way to customize the images used as base for the containers. An addon is basically a tarball providing several hooks and additional metadata. A very good example for an addon is one which enables the SSH service inside a container to provide access from the outside for any kind of automation of the container.
 
 An addon can be installed into a container by adding it to a registered application in AMS.

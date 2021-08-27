@@ -1,3 +1,5 @@
+# Streaming Android Applications
+
 The Streaming Stack is based on [WebRTC](https://webrtc.org/) and integrates with GPUs from different vendors to enable low latency video encoding mandatory for any kind of real time streaming use case.
 
 This section covers usage of the Streaming Stack, for installation instructions please refer to [the installation page](https://discourse.ubuntu.com/t/installation-quickstart/17744).

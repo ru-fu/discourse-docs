@@ -1,3 +1,5 @@
+# AMS Configuration
+
 AMS provides various configuration items to customize its behavior. The following lists the available ones and their meaning.
 
 

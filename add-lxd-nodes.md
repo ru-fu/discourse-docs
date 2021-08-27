@@ -1,3 +1,5 @@
+# Adding additional LXD nodes
+
 New LXD units need to have a dedicated machine, so we need to configure a new machine as we did for the first one.
 
 Since the Anbox Cloud 1.8 release,  AMS supports multiple architectures, which means a mix of amd64 and arm64 -based machines can work together in the connected LXD cluster. When adding a new lxd node to the cluster, you can choose the best-fit architecture to your cluster as needed.

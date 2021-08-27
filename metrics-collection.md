@@ -1,3 +1,5 @@
+# Metrics collection
+
 Anbox Cloud allows you to collect various metrics from a deployment. This includes various metrics about the hardware and how it's being used but also about Anbox Cloud itself, like how many containers are currently running etc.
 
 The following table shows an overview of the metrics available through [Prometheus](https://prometheus.io/):

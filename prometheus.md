@@ -1,3 +1,5 @@
+# Prometheus metrics
+
 To see how to deploy a monitoring stack in Anbox Cloud, refer to the instructions for [deploying Grafana](https://anbox-cloud.io/docs/monitoring/monitoring-grafana). Those instructions will take you through the installation Prometheus and Grafana.
 
 The base installation provides basic dashboards. You can however update them to fit your needs. Below is the list of all metrics returned to Prometheus by each component of Anbox Cloud.

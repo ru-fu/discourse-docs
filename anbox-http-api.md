@@ -1,3 +1,5 @@
+# Anbox HTTP API
+
 Anbox provides an HTTP API endpoint through a Unix socket at `/run/users/1000/anbox/api.socket` inside every container. The API allows controlling certain aspects of the Anbox runtime and the Android container.
 
 ## Accessing the API endpoint

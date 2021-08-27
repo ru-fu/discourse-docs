@@ -1,3 +1,5 @@
+# Monitoring: Nagios
+
 [Nagios](https://www.nagios.org/) is widely used for monitoring networks, servers and applications.
 Using the Nagios Remote Plugin Executor (NRPE) on each node, it can monitor your cluster with machine-level detail.
 

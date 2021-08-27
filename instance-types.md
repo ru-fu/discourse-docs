@@ -1,3 +1,5 @@
+# Instance Types
+
 Similar as other clouds Anbox Cloud describes the amount of resources a single container uses with an instance type. An instance type is a simple name which is mapped to set of resources. This allows to have an easy abstraction when speaking about resource requirements of containers or particular applications.
 
 Anbox Cloud offers the following instance types:

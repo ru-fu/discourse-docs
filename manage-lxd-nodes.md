@@ -1,3 +1,5 @@
+# Managing LXD nodes
+
 The AMS service manages a set of registered LXD nodes. All nodes are registered automatically when Juju sets them up.
 
 > **Note:** It is possible to add and remove nodes manually but if you're using Juju to deploy Anbox Cloud you should avoid doing this as it will break the charm interplay and can leave you with a broken deployment.
