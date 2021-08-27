@@ -1,3 +1,5 @@
+# Managing applications
+
 Applications are one of the main objects AMS manages. A single application encapsulates one Android application and manages it within the cluster. It takes care of installing the supplied application package ([Android Package Kit - APK](https://en.wikipedia.org/wiki/Android_application_package)), to make it available to users. Further AMS manages updates to existing applications, which includes allowing the operator to test new uploaded versions before making them available to any users.
 
 ## Application requirements

@@ -1,3 +1,5 @@
+# Managing images
+
 An image is the base for a container running in the Anbox Cloud. It contains all necessary components, like Anbox or the Android root file system. Each release of Anbox Cloud comes with an updated image.
 
 Anbox Cloud provides images based on different Android versions and different architectures (amd64, arm64). AMS manages these images, which can be individually selected by applications. When an image is updated, all applications using the image are automatically updated and rebased on the new image version.

@@ -1,3 +1,5 @@
+:orphan:
+
 The Anbox Cloud Appliance is available through the AWS marketplace which simplifies the installation and deployment process and also allows billing directly handled through AWS. The following steps will guide you through all relevants steps to the Anbox Cloud Appliance deployed in your AWS account.
 
 # Choose Instance Architecture

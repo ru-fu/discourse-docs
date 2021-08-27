@@ -1,8 +1,10 @@
+# Release notes
+
 > **NOTE**: If you're interested in getting notified for the latest Anbox Cloud releases, make sure you subscribe to notifications on the [announcements  category](https://discourse.ubuntu.com/c/anbox-cloud/announcements/55) on the Anbox Cloud discourse.
 
 [Details=1.11.1]
 
-# 1.11.1 (August 17 2021)
+## 1.11.1 (August 17 2021)
 
 #### New Features & Improvements
 

@@ -1,3 +1,5 @@
+# Integrate a client-side virtual keyboard
+
 The Anbox Streaming SDK enables developers to build a hybrid mobile application that can integrate the features that Anbox Cloud provides. It comes with an [Android library](https://developer.android.com/studio/projects/android-library) that offers easy-to-use native components like AnboxWebView, which you can use to quickly integrate a client-side virtual keyboard feature into your mobile application. This client-side virtual keyboard can send text to the Android container on the fly when typing.
 
 The AnboxWebView extends the AOSP [WebView](https://developer.android.com/reference/android/webkit/WebView). It provides better handling of the text input for the hybrid application that loads the Anbox Streaming JavaScript SDK with an embedded WebView for video streaming.
