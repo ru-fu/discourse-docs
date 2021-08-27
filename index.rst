@@ -6,102 +6,99 @@
 Welcome to Anbox Cloud's documentation!
 =======================================
 
+Anbox Cloud offers a software stack that runs Android applications in any cloud enabling high-performance streaming of graphics to desktop and mobile client devices.
+
+At its heart, it uses lightweight container technology instead of full virtual machines to achieve higher density and better performance per host while ensuring security and isolation of each container. Depending on the target platform, payload, and desired application performance (e.g. frame rate), more than 100 containers can be run on a single machine.
+
+For containerization of Android, Anbox Cloud uses the well established and secure container hypervisor [LXD](https://linuxcontainers.org/). LXD is secure by design, scales to a large number of containers and provides advanced resource management for hosted containers.
+
+Also have a look at the [official Anbox Cloud website](https://anbox-cloud.io/) for more information.
+
+**What Anbox Cloud offers**
+
+Anbox Cloud provides management of an entire cluster of machines running the Anbox Cloud software and maintains a single Android system per container. It is based on powerful and battle proven software from Canonical like [LXD](https://linuxcontainers.org/) or [Juju](https://jujucharms.com/).
+
+Its core features are:
+* Simple and straightforward deployment using [Juju](https://jujucharms.com/) on any cloud
+* Specialized management service to handle all aspects of the container and application lifecycle while optimizing the cluster for high density, performance and faster container boot times
+* Platform integration tools including a rich SDK to allow integration of existing streaming solutions in the Anbox Cloud platform
+* Support for both x86 and Arm64 hardware
+* Integrates with 3rd party solutions for binary translation solutions on Arm64-only hardware
+
+**What's new in 1.11?**
+
+Along with bugfixes and general improvements, Anbox Cloud 1.11 comes with:
+
+* Client-side virtual keyboard
+* Hardware accelerated video decoding (H.264, Nvidia GPUs only)
+* Experimental WiFi support
+
+Check the [release notes](https://discourse.ubuntu.com/t/release-notes/17842) for more details.
+
+
+
 .. toctree::
    :maxdepth: 1
-   :caption: About
-
-   md-index
-   overview
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Installation
-
-   requirements
-   install-appliance
-   installation-quickstart
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Operations
+   :caption: Tutorials
              
-   customizing
-   installation-application-registry
-   upgrading
-   high-availability
-   validation
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Managing Anbox Cloud
-             
+   Installing the Anbox Cloud Appliance <install-appliance>
    getting-started
-   web-dashboard
-   manage-images
-   manage-applications
-   manage-addons
-   application-registry
-   manage-containers
-   capacity-planning
-   gpu-support
-   manage-logs
-   manage-ams-access
-   container-access
-   benchmarking
-   streaming-apps
-   lxd-auto-scaling
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Using Anbox Cloud
              
-   container-configuration
-   port-android-app
-   streaming-sdk-wrapper
-   application-testing
-   virtual-devices
-
 .. toctree::
-   :maxdepth: 1
-   :caption: Monitoring
-             
-   monitoring-installation
-   monitoring-grafana
-   monitoring-nagios
+   :maxdepth: 2
+   :caption: How to
 
+   how-to-install
+   how-to-update
+   how-to-manage
+   how-to-applications
+   how-to-containers
+   how-to-monitor
+   how-to-streaming
+   how-to-cluster
+   Troubleshoot Anbox Cloud <faq>
+         
 .. toctree::
    :maxdepth: 1
    :caption: Reference
-             
-   ams-rest-api
-   anbox-http-api
-   stream-gateway-api
-   ams-sdk-api
-   ams-configuration
-   instance-types
-   platforms
-   prometheus
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Other things
-             
-   release-notes
-   roadmap
-   component-versions
-   supported-versions
+   ref-images
    sdks
-   faq
+   streaming-sdk 
+   ref-api
+   Instance types <instance-types>
+   Anbox platforms <platforms>
+   prometheus
+   metrics-collection
+   AMS configuration <ams-configuration>
+   ref-application-manifest
+            
+.. toctree::
+   :maxdepth: 1
+   :caption: Explanation
+
+   About Anbox Cloud <overview>
+   Anbox Cloud Appliance vs. Anbox Cloud <missing>
+   About AMS <missing>
+   exp-application
+   exp-application-registry
+   manage-containers 
+   capacity-planning 
+   About GPU support <gpu-support>
+   About benchmarking <benchmarking>
+   About application streaming <streaming-apps>
+   Issues when porting Android apps <port-android-app>
+
 
 .. toctree::
    :maxdepth: 1
-   :caption: Not in nav
-
-   add-lxd-nodes
-   charm-configuration
-   livepatch-support
-   metrics-collection
-   manage-lxd-nodes
+   :caption: Project information
+             
+   requirements
+   release-notes
+   Release roadmap <roadmap>
+   Supported versions <supported-versions>
+   Component versions <component-versions>
 
 
 

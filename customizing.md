@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: This should be split up in separate how-tos. Low priority.
+
 # Customizing a deployment
 
 The [Quick start](https://discourse.ubuntu.com/t/installation-quickstart/17744) documentation explains how to perform a quick and easy general install of Anbox Cloud. However, in some cases it may be useful to customise the installation:

@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: Rewrite in How to style. Medium priority.
+
 # Install with Juju
 
 With this quick start guide and some tools from Canonical, you'll have an Anbox Cloud running on the cloud of your choice in minutes!

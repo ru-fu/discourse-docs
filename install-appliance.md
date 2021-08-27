@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: Rewrite in tutorial style. Medium priority.
+
 # Install Appliance
 
 The Anbox Cloud Appliance provides a deployment of Anbox Cloud to a single machine.

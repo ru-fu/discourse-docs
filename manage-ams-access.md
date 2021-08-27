@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: This needs cleanup. Is it about remote access or about securing the access?
+
 # Managing AMS access
 
 AMS exposes an HTTP interface. Clients can be anything, whether it's the CLI (amc), the registry (aar) or any client you developed yourself.

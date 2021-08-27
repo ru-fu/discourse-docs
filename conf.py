@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from m2r import MdInclude
+#from m2r import MdInclude
 
 # -- Project information -----------------------------------------------------
 
@@ -60,10 +60,10 @@ exclude_patterns = ['sphinxenv/**/*']
 
 
 # from m2r to make `mdinclude` work
-def setup(app):
-    # from m2r to make `mdinclude` work
-    app.add_config_value('no_underscore_emphasis', False, 'env')
-    app.add_config_value('m2r_parse_relative_links', False, 'env')
-    app.add_config_value('m2r_anonymous_references', False, 'env')
-    app.add_config_value('m2r_disable_inline_math', False, 'env')
-    app.add_directive('mdinclude', MdInclude)
+#def setup(app):
+#    # from m2r to make `mdinclude` work
+#    app.add_config_value('no_underscore_emphasis', False, 'env')
+#    app.add_config_value('m2r_parse_relative_links', False, 'env')
+#    app.add_config_value('m2r_anonymous_references', False, 'env')
+#    app.add_config_value('m2r_disable_inline_math', False, 'env')
+#    app.add_directive('mdinclude', MdInclude)

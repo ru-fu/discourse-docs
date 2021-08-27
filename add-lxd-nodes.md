@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: This might be outdated?
+
 # Adding additional LXD nodes
 
 New LXD units need to have a dedicated machine, so we need to configure a new machine as we did for the first one.

@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: This might be outdated?
+
 # Managing LXD nodes
 
 The AMS service manages a set of registered LXD nodes. All nodes are registered automatically when Juju sets them up.

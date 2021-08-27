@@ -1,3 +1,5 @@
+> **RESTRUCTURE**: Rewrite in tutorial style. Medium priority.
+
 # Getting started with Anbox Cloud
 
 This guide provides the first steps to using Anbox Cloud. If you haven't installed Anbox Cloud, please refer to the [installation page](https://discourse.ubuntu.com/t/installation-quickstart/17744) first.
