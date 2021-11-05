@@ -2,7 +2,7 @@ The AMS services provides with addons a way to customize the images used as base
 
 An addon can be installed into a container by adding it to a registered application in AMS.
 
-> **Note:**  Addons provide can be very powerful feature. Be careful with how you customize the container as it may prevent it from running properly or impact its performance.
+[note type="information" status="Note"]Addons provide can be very powerful feature. Be careful with how you customize the container as it may prevent it from running properly or impact its performance.[/note]
 
 In the next sections you will learn how to manage addons in AMS.
 
@@ -147,7 +147,7 @@ $ amc addon add foo foo-addon.tar.bz2
 The command expects you to define a name of the addon (`foo` in this case) which should be the same
 as in the addon manifest.
 
-> **Note:** Due to Snap strict confinement,  the tarball file must be located home directory.
+[note type="information" status="Note"]Due to Snap strict confinement,  the tarball file must be located home directory.[/note]
 
 ## Update an existing Addon
 

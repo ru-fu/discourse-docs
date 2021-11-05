@@ -64,7 +64,7 @@ By default, every container is scheduled by AMS onto a LXD node. Alternatively, 
 
     amc launch --node=lxd0 bcmap7u5nof07arqa2ag
 
-> **Note:** AMS will still verify that the selected node has enough resources to host the container. If not, the container will fail to launch.
+[note type="information" status="Note"]AMS will still verify that the selected node has enough resources to host the container. If not, the container will fail to launch.[/note]
 
 ## Launch container with different Anbox platform
 
