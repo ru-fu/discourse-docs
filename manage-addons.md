@@ -6,7 +6,8 @@ An addon can be installed into a container by adding it to a registered applicat
 
 In the next sections you will learn how to manage addons in AMS.
 
-<h2 id='heading--build-your-own-addon'>Build your own Addon</h2>
+<a name="heading--build-your-own-addon"></a>
+## Build your own Addon
 
 Any addon has the following structure:
 
@@ -99,7 +100,8 @@ The hook implementation above uses the `anbox-shell` command to invoke commands 
 
 The `prepare` hook needs to be placed as `hook/prepare` within the addon package.
 
-<h3 id='heading--backup-and-restore'>Backup and Restore Hooks</h3>
+<a name="heading--backup-and-restore"></a>
+### Backup and Restore Hooks
 
 Backup and restore hooks are scripts that run automatically whenever a container is terminated or get started. These two hooks let you trigger customizable actions at key points in the container life cycle.
 
