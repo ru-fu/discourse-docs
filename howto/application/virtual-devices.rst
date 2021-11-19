@@ -35,7 +35,7 @@ Extend the Application with Addons
 ==================================
 
 You can also extend the application with
-`addons <https://discourse.ubuntu.com/t/managing-addons/17759/2>`_
+:ref:`addons <manage-addons>`
 which install additional applications you want to offer as part of your
 default experience. You can for example replace the standard Android
 launcher with a custom one like `Lawnchair <https://lawnchair.app/>`_.
