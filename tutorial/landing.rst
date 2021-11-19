@@ -10,6 +10,6 @@ Placeholder
 .. toctree::
    :titlesonly:
 
-   installing-appliance
-   getting-started-dashboard
-   getting-started
+   Installing the appliance <installing-appliance>
+   Getting started (web dashboard) <getting-started-dashboard>
+   Getting started (CLI) <getting-started>
