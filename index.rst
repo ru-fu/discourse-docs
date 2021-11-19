@@ -1,5 +1,3 @@
-.. _index:
-
 =========================
 Anbox Cloud documentation
 =========================
@@ -80,6 +78,7 @@ with:
    :titlesonly:
    :hidden:
 
+   Home <self>
    tutorial/landing/
    howto/landing/
    reference/landing/
