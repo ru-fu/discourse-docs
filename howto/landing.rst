@@ -10,12 +10,12 @@ Placeholder
 .. toctree::
    :titlesonly:
 
-   install/landing/
-   update/landing/
-   manage/landing/
-   application/landing/
-   container/landing/
-   monitor/landing/
-   stream/landing/
-   cluster/landing/
-   troubleshoot
+   install/landing
+   update/landing
+   manage/landing
+   application/landing
+   container/landing
+   monitor/landing
+   stream/landing
+   cluster/landing
+   troubleshoot/landing

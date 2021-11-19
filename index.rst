@@ -79,8 +79,8 @@ with:
    :hidden:
 
    Home <self>
-   tutorial/landing/
+   tut/landing/
    howto/landing/
-   reference/landing/
-   explanation/landing/
+   ref/landing/
+   exp/landing/
    anbox/landing/
