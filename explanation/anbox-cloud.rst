@@ -54,25 +54,25 @@ variants:
    * - Feature
      - Anbox Cloud Appliance
      - Anbox Cloud
-   * - \ `Streaming capabilities <https://discourse.ubuntu.com/t/streaming-android-applications/17769>`__\ 
+   * - \ `Streaming capabilities <https://discourse.ubuntu.com/t/streaming-android-applications/17769>`__\
      - ✓
      - ✓
-   * - \ `Web dashboard <https://discourse.ubuntu.com/t/web-dashboard/20871>`__\ 
+   * - \ `Web dashboard <https://discourse.ubuntu.com/t/web-dashboard/20871>`__\
      - ✓
      - ✓
-   * - \ `Android API version <https://discourse.ubuntu.com/t/provided-images/24185>`__\ 
+   * - \ `Android API version <https://discourse.ubuntu.com/t/provided-images/24185>`__\
      - 10, 11
      - 10, 11
-   * - \ `Security updates <https://ubuntu.com/support>`__\ 
+   * - \ `Security updates <https://ubuntu.com/support>`__\
      - ✓
      - ✓
-   * - \ `Community support <https://discourse.ubuntu.com/c/anbox-cloud/>`__\ 
+   * - \ `Community support <https://discourse.ubuntu.com/c/anbox-cloud/>`__\
      - ✓
      - ✓
-   * - \ `Vendor support <https://anbox-cloud.io/contact-us>`__\ 
+   * - \ `Vendor support <https://anbox-cloud.io/contact-us>`__\
      - -
      - ✓
-   * - \ `Monitoring <https://discourse.ubuntu.com/t/monitor-anbox-cloud/24338>`__\ 
+   * - \ `Monitoring <https://discourse.ubuntu.com/t/monitor-anbox-cloud/24338>`__\
      - -
      - ✓
 
@@ -84,7 +84,7 @@ deployments, whereas the regular Anbox Cloud is best to scale big.
 .. tip::
    We recommend to always start with
    the Anbox Cloud Appliance for first tests. You can then expand to a full
-   Anbox Cloud installation later. 
+   Anbox Cloud installation later.
 
 Components
 ==========
@@ -102,10 +102,10 @@ existing infrastructure and service implementations.
 The following figure gives an overview of the different components and
 their responsibility within the core stack of Anbox Cloud.
 
-.. figure:: upload://x0budFKybsbYLhiplNhF4R91Ght.png
-   :alt: anbox-core-overview|690x398
+.. figure:: /images/anbox-core-overview.svg
+   :alt: Anbox Cloud core stack
 
-   anbox-core-overview|690x398
+   Anbox Cloud core stack
 
 At the heart of Anbox Cloud sits the :ref:`Anbox Management Service (AMS) <explanation_ams>`. **AMS** has
 the job to handle all aspects of the application and container life
@@ -142,10 +142,10 @@ machines and stream their visual output to clients via
 The following figure shows an overview of how the different components
 work together to enable this.
 
-.. figure:: upload://qXJleBmvwQFi2cc1HuPF7P5S15b.png
-   :alt: streaming-stack-overview|690x440
+.. figure:: /images/anbox_cloud_streaming_stack.svg
+   :alt: Streaming stack overview
 
-   streaming-stack-overview|690x440
+   Streaming stack overview
 
 The main components powering the streaming stack in Anbox Cloud are:
 

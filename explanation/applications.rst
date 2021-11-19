@@ -65,10 +65,10 @@ application:
 In general, the bootstrap process goes through the following steps in
 order:
 
-.. figure:: upload://haAJJ8p8ZEQXmsvrVb3HOHhl1io.png
-   :alt: application-bootstrap|690x467
+.. figure:: /images/application-bootstrap.svg
+   :alt: Application bootstrap
 
-   application-bootstrap|690x467
+   Application bootstrap
 
 -  Configure network interface and gateway.
 -  Apply any pending Ubuntu system security updates.

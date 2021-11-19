@@ -27,10 +27,10 @@ creation:
 -  Execute the ``backup`` hook provided by the installed addons after
    the container is terminated
 
-.. figure:: upload://exw6GWcRvMzkIztcUIrizFg0oJz.png
-   :alt: container-launch|690x401
+.. figure:: /images/container-launch.svg
+   :alt: Launching a container
 
-   container-launch|690x401
+   Launching a container
 
 The whole launch process will be successful only if all of the above
 steps succeed.
