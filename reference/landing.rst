@@ -19,3 +19,4 @@ Placeholder
    ams-configuration
    application-manifest
    perf-benchmarks
+   LXD documentation <https://linuxcontainers.org/lxd/docs/master/>
