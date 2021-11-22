@@ -7,7 +7,8 @@ Deploy Anbox Cloud with Juju
 With this quick start guide and some tools from Canonical, you’ll have
 an Anbox Cloud running on the cloud of your choice in minutes!
 
-   **NOTE:** There are differences between the full Anbox Cloud
+.. note::
+   There are differences between the full Anbox Cloud
    installation and the Anbox Cloud Appliance (see
    :ref:`Variants <explanation_anbox-cloud-variants>`).
    This section focuses on **Anbox Cloud**. For instructions on how to
@@ -26,19 +27,19 @@ For the quickstart into Anbox Cloud you will need the following things:
       AWS-China
    -  `Google Cloud platform <https://cloud.google.com/>`_
 
--  Your *Ubuntu Advantage for*\ **Applications** token. If you don’t
+-  Your *Ubuntu Advantage for Applications* token. If you don’t
    have yours yet, get it from https://ubuntu.com/advantage or speak to
    your Canonical representative
 
-..
+   .. warning::
+      The *Ubuntu Advantage for Infrastructure* token
+      every user gets for free for personal use does **NOT** work and will
+      result in a failed deployment!
 
-   **WARNING:** The *Ubuntu Advantage for*\ **Infrastructure** token
-   every user gets for free for personal use does **NOT** work and will
-   result in a failed deployment!
-
-   **NOTE:** If you don’t meet these requirements, there are additional
-   ways of installing the Anbox Cloud. See the more general :ref:`howto_install_customise`
-   for details.
+   .. note::
+      If you don’t meet these requirements, there are additional
+      ways of installing the Anbox Cloud. See the more general :ref:`howto_install_customise`
+      for details.
 
 Install Juju
 ------------
@@ -120,11 +121,12 @@ the correct licences you’re granted as part of your licence agreement
 with Canonical next to other services available through your
 subscription like `Livepatch <https://ubuntu.com/livepatch>`_.
 
-You can get your *Ubuntu Advantage for*\ **Applications** token at
+You can get your *Ubuntu Advantage for Applications* token at
 https://ubuntu.com/advantage after logging in. Please record the token
 as you will need it for every deployment of Anbox Cloud.
 
-   **WARNING:** The free *Ubuntu Advantage for*\ **Infrastructure**
+.. warning::
+   The free *Ubuntu Advantage for Infrastructure*
    token every user gets for free for personal use does **NOT** work and
    will result in a failed deployment!
 

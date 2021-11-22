@@ -33,32 +33,32 @@ versions. Please note the support status for each of the images.
      - Ubuntu Version
      - Support Status
      - Available since
-   * - \ ``bionic:android11:amd64``\ 
+   * - ``bionic:android11:amd64``
      - 11
      - 18.04
      - supported
      - 1.10
-   * - \ ``bionic:android11:arm64``\ 
+   * - ``bionic:android11:arm64``
      - 11
      - 18.04
      - supported
      - 1.10
-   * - \ ``bionic:android10:amd64``\ 
+   * - ``bionic:android10:amd64``
      - 10
      - 18.04
      - supported
      - 1.0
-   * - \ ``bionic:android10:arm64``\ 
+   * - ``bionic:android10:arm64``
      - 10
      - 18.04
      - supported
      - 1.0
-   * - \ ``bionic:android7:amd64``\ 
+   * - ``bionic:android7:amd64``
      - 7
      - 18.04
      - unsupported as of 1.10
      - 1.0
-   * - \ ``bionic:android7:arm64``\ 
+   * - ``bionic:android7:arm64``
      - 7
      - 18.04
      - unsupported as of 1.10
