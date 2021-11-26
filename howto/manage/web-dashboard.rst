@@ -102,7 +102,7 @@ Creating applications
 ---------------------
 
 Creating applications through the dashboard is done the same way as you
-would do with :ref:`amc (see Create an application <howto_application_create>`).
+would do with ``amc`` (see :ref:`howto_application_create`).
 Note that more advanced scenarios might not yet be possible via the
 dashboard and require going through ``amc``.
 

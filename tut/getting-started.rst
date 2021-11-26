@@ -29,7 +29,7 @@ tutorial for an introduction on how to use the web dashboard.
 1. Run AMC
 ==========
 
-The Anbox Management Client :ref:`amc communicates with the Anbox Management Service (AMS) <explanation_ams>`. You will use
+The Anbox Management Client ``amc`` communicates with the :ref:`Anbox Management Service (AMS) <explanation_ams>`. You will use
 ``amc`` to manage all aspects of Anbox Cloud that are related to AMS.
 
 How and where to run ``amc`` depends on your use case:

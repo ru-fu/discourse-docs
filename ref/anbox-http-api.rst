@@ -78,17 +78,17 @@ HTTP code must be one of 400 or 500.
 API structure
 =============
 
--  :ref:`/1.0 <reference_anbox-http-api-heading--10>`
+-  :ref:`ref_anbox-http-api-heading--10`
 
-   -  :ref:`/1.0/location <reference_anbox-http-api-heading--10location>`
+   -  :ref:`ref_anbox-http-api-heading--10location`
 
-   -  :ref:`/1.0/camera <reference_anbox-http-api-heading--10camera>`
+   -  :ref:`ref_anbox-http-api-heading--10camera`
 
-      -  :ref:`/1.0/camera/data <reference_anbox-http-api-heading--10cameradata>`
+      -  :ref:`ref_anbox-http-api-heading--10cameradata`
 
-   -  :ref:`/1.0/sensors <reference_anbox-http-api-heading--10sensors>`
+   -  :ref:`ref_anbox-http-api-heading--10sensors`
 
-   -  :ref:`/1.0/tracing <reference_anbox-http-api-heading--10tracing>`
+   -  :ref:`ref_anbox-http-api-heading--10tracing`
 
 API details
 ===========

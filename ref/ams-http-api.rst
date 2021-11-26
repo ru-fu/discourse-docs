@@ -263,64 +263,63 @@ HTTP headers:
 API structure
 =============
 
--  `/ <heading--#>`_
+-  /
 
--  :ref:`/1.0 <reference_ams-http-api-heading--10>`
+-  :ref:`ref_ams-http-api-heading--10`
 
--  :ref:`/1.0/addons <reference_ams-http-api-heading--10addons>`
+-  :ref:`ref_ams-http-api-heading--10addons`
 
-   -  :ref:`/1.0/addons/ <reference_ams-http-api-heading--10addonsname>`
+   -  :ref:`ref_ams-http-api-heading--10addonsname`
 
-   -  :ref:`/1.0/addons// <reference_ams-http-api-heading--10addonsnameversion>`
+   -  :ref:`ref_ams-http-api-heading--10addonsnameversion`
 
--  :ref:`/1.0/applications <reference_ams-http-api-heading--10applications>`
+-  :ref:`ref_ams-http-api-heading--10applications`
 
-   -  :ref:`/1.0/applications/ <reference_ams-http-api-heading--10applicationsname>`
+   -  :ref:`ref_ams-http-api-heading--10applicationsname`
 
-      -  :ref:`/1.0/applications//manifest <reference_ams-http-api-heading--10applicationsnamemanifest>`
+      -  :ref:`ref_ams-http-api-heading--10applicationsnamemanifest`
 
-      -  :ref:`/1.0/applications// <reference_ams-http-api-heading--10applicationsnameversion>`
+      -  :ref:`ref_ams-http-api-heading--10applicationsnameversion`
 
-      -  :ref:`/1.0/applications///manifest <reference_ams-http-api-heading--10applicationsnameversionmanifest>`
+      -  :ref:`ref_ams-http-api-heading--10applicationsnameversionmanifest`
 
--  :ref:`/1.0/certificates <reference_ams-http-api-heading--10certificates>`
+-  :ref:`ref_ams-http-api-heading--10certificates`
 
-   -  :ref:`/1.0/certificates/ <reference_ams-http-api-heading--10certificatesid>`
+   -  :ref:`ref_ams-http-api-heading--10certificatesid`
 
--  :ref:`/1.0/config <reference_ams-http-api-heading--10config>`
+-  :ref:`ref_ams-http-api-heading--10config`
 
--  :ref:`/1.0/containers <reference_ams-http-api-heading--10containers>`
+-  :ref:`ref_ams-http-api-heading--10containers`
 
-   -  :ref:`/1.0/containers/ <reference_ams-http-api-heading--10containersid>`
+   -  :ref:`ref_ams-http-api-heading--10containersid`
 
-      -  :ref:`/1.0/containers//logs <reference_ams-http-api-heading--10containersidlogs>`
+      -  :ref:`ref_ams-http-api-heading--10containersidlogs`
 
-      -  :ref:`/1.0/containers//logs/ <reference_ams-http-api-heading--10containersidlogsname>`
+      -  :ref:`ref_ams-http-api-heading--10containersidlogsname`
 
--  :ref:`/1.0/events <reference_ams-http-api-heading--10events>`
+-  :ref:`ref_ams-http-api-heading--10events`
 
--  :ref:`/1.0/images <reference_ams-http-api-heading--10images>`
+-  :ref:`ref_ams-http-api-heading--10images`
 
-   -  :ref:`/1.0/images/ <reference_ams-http-api-heading--10images>`
+   -  :ref:`ref_ams-http-api-heading--10images`
 
-      -  :ref:`/1.0/images// <reference_ams-http-api-heading--10imagesidversion>`
+      -  :ref:`ref_ams-http-api-heading--10imagesidversion`
 
--  ``/1.0/metrics``
--  :ref:`/1.0/nodes <reference_ams-http-api-heading--10nodes>`
+-  :ref:`ref_ams-http-api-heading--10nodes`
 
-   -  :ref:`/1.0/nodes/ <reference_ams-http-api-heading--10nodesname>`
+   -  :ref:`ref_ams-http-api-heading--10nodesname`
 
--  :ref:`/1.0/operations <reference_ams-http-api-heading--10operations>`
+-  :ref:`ref_ams-http-api-heading--10operations`
 
-   -  :ref:`/1.0/operations/ <reference_ams-http-api-heading--10operationsuuid>`
+   -  :ref:`ref_ams-http-api-heading--10operationsuuid`
 
-      -  :ref:`/1.0/operations//wait <reference_ams-http-api-heading--10operationsuuidwait>`
+      -  :ref:`ref_ams-http-api-heading--10operationsuuidwait`
 
-      -  :ref:`/1.0/operations//websocket <reference_ams-http-api-heading--10operationsuuidwebsocket>`
+      -  :ref:`ref_ams-http-api-heading--10operationsuuidwebsocket`
 
--  :ref:`/1.0/tasks <reference_ams-http-api-heading--10tasks>`
+-  :ref:`ref_ams-http-api-heading--10tasks`
 
--  :ref:`/1.0/version <reference_ams-http-api-heading--10version>`
+-  :ref:`ref_ams-http-api-heading--10version`
 
 API details
 ===========
@@ -1389,8 +1388,9 @@ Output:
        "certificate": "-----BEGIN CERTIFICATE-----
    MIIFUTCCAzmgAw
    ...
-   TABLEHEADER#X#xjKoUEEQOzJ9#X#TABLEEND
-
+   xjKoUEEQOzJ9
+   -----END CERTIFICATE-----",  # Base64 certificate content, including header and footer
+       "fingerprint": "<fingerprint>"
    }
 
 .. _delete-4:
@@ -1895,9 +1895,16 @@ Example:
 
    $ curl -s -X GET --insecure --cert client.crt --key client.key <AMS_SERVICE_URL>/1.0/containers/c00hvbgj1qm4f18jdkb0/logs/android.log
 
-Output: TABLEHEADER#X#TABLEHEADER#X#```#X#TABLEEND#X#TABLEEND
+Output:
 
-01-28 07:22:44.578 7 7 V vold : Detected support for: ext4 vfat … \``\`
+.. code::
+
+   --------- beginning of main
+   01-28 07:22:44.573     5     5 I         : debuggerd: starting
+   --------- beginning of system
+   01-28 07:22:44.578     7     7 I vold    : Vold 3.0 (the awakening) firing up
+   01-28 07:22:44.578     7     7 V vold    : Detected support for: ext4 vfat
+   ...
 
 .. _reference_ams-http-api-heading--10events:
 

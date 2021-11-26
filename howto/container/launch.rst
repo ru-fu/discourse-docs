@@ -36,7 +36,7 @@ The whole launch process will be successful only if all of the above
 steps succeed.
 
 If something goes wrong during the container launch process, the status
-of the container changes to :ref:`error status. You can view the available logs <howto_container_logs>`
+of the container changes to ``error`` status. You can view the :ref:`available logs <howto_container_logs>`
 from the container for diagnosing the root cause of the problem.
 
 .. _howto_container_launch-application-containers:

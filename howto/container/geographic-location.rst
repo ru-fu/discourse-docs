@@ -53,7 +53,7 @@ following table.
 To make the file ``/var/lib/anbox/static_gps_position`` available to the
 Android container, create a file that contains GPS data in the above
 format and move that file from ``ADDON_DIR`` to
-:ref:`/var/lib/anbox/static_gps_position via an addon install hook <manage-addons-heading--build-your-own-addon>`
+``/var/lib/anbox/static_gps_position`` via an :ref:`addon install hook <manage-addons-heading--build-your-own-addon>`
 during the installation. When an Android container gets started and an
 application requests the current location information through the
 Android framework, the GPS data is then forwarded from the Anbox session
