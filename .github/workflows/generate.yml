@@ -2,15 +2,13 @@ name: Generate AMS configuration doc
 
 on:
   push:
-    branches:
-      - 'testbranch'
     paths:
       - 'ref/ams-configuration.tmpl.md'
       - 'ref/ams-configuration.yaml'
 
 jobs:
   run:
-    name: Generate and commit
+    name: Generate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -18,9 +16,3 @@ jobs:
 
       - name: Generate Markdown file
         run: python scripts/generate-ams-config.py
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'Generate AMS configuration doc'
-          add: 'ref/ams-configuration.md'
