@@ -1,16 +1,14 @@
-name: Generate AMS configuration doc
+name: Generate and commit AMS configuration doc
 
 on:
   push:
-    branches:
-      - 'testbranch'
     paths:
       - 'ref/ams-configuration.tmpl.md'
       - 'ref/ams-configuration.yaml'
 
 jobs:
-  run:
-    name: Generate and commit
+  generate:
+    name: Generate file
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -19,6 +17,18 @@ jobs:
       - name: Generate Markdown file
         run: python scripts/generate-ams-config.py
 
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Generate AMS configuration doc'
+          add: 'ref/ams-configuration.md'
+
+  commit:
+    name: Commit file
+    if: ${{ github.ref == 'refs/heads/testbranch' }}
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
