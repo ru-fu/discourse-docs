@@ -1,4 +1,4 @@
-sdfAMS provides various configuration items to customise its behaviour. The following table lists the available configuration items and their meaning.
+AMS provides various configuration items to customise its behaviour. The following table lists the available configuration items and their meaning.
 
 <!-- GENERATED_TABLE all -->
 

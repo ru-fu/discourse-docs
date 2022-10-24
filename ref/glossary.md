@@ -118,7 +118,7 @@ See https://discourse.ubuntu.com/t/back-up-and-restore-application-data/24183.
 ### Anbox Application Registry (AAR)
 
 A central repository for applications created in Anbox Cloud. Using an AAR is very useful for larger deployments to keep applications in sync.
-sdfdsf
+
 See https://discourse.ubuntu.com/t/anbox-application-registry-aar/17761.
 
 <a name="anbox-cloud"></a>

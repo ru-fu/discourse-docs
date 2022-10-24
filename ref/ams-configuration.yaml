@@ -5,7 +5,7 @@ all:
     default: "-"
     description: >-
       Comma-separated list of addons that every application managed by
-      AMS will use. See lsdjfldkfj
+      AMS will use. See
       [How to enable an addon globally](https://discourse.ubuntu.com/t/enable-an-addon-globally/25285).
   application.auto_publish:
     type: "bool"
