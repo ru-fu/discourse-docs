@@ -16,3 +16,6 @@ jobs:
 
       - name: Generate Markdown file
         run: python scripts/generate-ams-config.py
+
+      - name: Show generated file
+        run: cat ref/ams-configuration.md
